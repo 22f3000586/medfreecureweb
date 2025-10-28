@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --header-height: 96px;
+}
+
+body{
+  @apply text-gray-800 antialiased;
+}
+
+.container-slim{
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.section{
+  @apply py-12 md:py-20;
+}
+
+.btn{
+  @apply inline-flex items-center gap-2 rounded-md px-5 py-3 font-medium transition-colors outline-none focus-visible:ring-2 focus-visible:ring-brand/30 focus-visible:ring-offset-2 focus-visible:ring-offset-white;
+}
+.btn-primary{
+  @apply bg-brand text-white hover:bg-brand-light;
+}
+.btn-outline{
+  @apply border border-brand text-brand hover:bg-brand/10;
+}
+
+.card{
+  @apply border border-brand/30 rounded-2xl shadow-sm transition-shadow hover:shadow-md bg-white;
+}
+
+.hero-gradient{
+  background: radial-gradient(1200px 500px at -10% -10%, rgba(20, 122, 108, 0.15), transparent 60%), linear-gradient(180deg, #0b5b50 0%, #07463e 100%);
+}
+
+.video{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.75rem;
+}
+.video::before{
+  content: '';
+  display: block;
+  padding-bottom: 56.25%;
+}
+.video > iframe,
+.video > *{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.placeholder-img{
+  @apply bg-gray-200 text-gray-500 flex items-center justify-center rounded-md;
+  background-image: repeating-linear-gradient(45deg, rgba(0,0,0,0.03) 0, rgba(0,0,0,0.03) 10px, transparent 10px, transparent 20px);
+}
