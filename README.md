@@ -30,40 +30,12 @@ The application ensures accessibility, performance, and a clean interface design
 
 | Category | Technologies |
 |-----------|---------------|
-| **Framework** | [Next.js](https://nextjs.org) (React + SSR/SSG) |
+| **Framework** | [Next.js] |
 | **Language** | TypeScript |
 | **Styling** | Tailwind CSS |
 | **Build Tool** | PostCSS, Next.js built-in bundler |
 | **Version Control** | Git, GitHub |
 | **Deployment** | Vercel |
-| **Package Manager** | npm / yarn |
-
----
-
-## 📁 Project Structure
-
-medfreecureweb/
-├── app/ or pages/ # Main application routes
-│ ├── index.tsx # Landing page
-│ ├── about/ # About MedFreeCure
-│ ├── contact/ # Contact & enquiry forms
-│ ├── services/ # Natural healing service pages
-│ └── auth/ # Authentication routes
-│
-├── components/ # Reusable UI components
-│ ├── Header.tsx
-│ ├── Footer.tsx
-│ ├── WhatsAppButton.tsx
-│ └── Cards, Sections, etc.
-│
-├── public/ # Static assets (images, icons)
-├── styles/ # Global and Tailwind styles
-├── tailwind.config.ts # Tailwind configuration
-├── next.config.mjs # Next.js custom configuration
-├── postcss.config.mjs # PostCSS configuration
-├── tsconfig.json # TypeScript configuration
-└── package.json # Dependencies and scripts
-
 
 ---
 
@@ -99,19 +71,19 @@ npm run start
 
 ✨ Key Features
 
-⚡ Fast and SEO-friendly pages using Next.js static generation
+1. Fast and SEO-friendly pages using Next.js static generation
 
-📱 Responsive UI designed with Tailwind CSS
+2. Responsive UI designed with Tailwind CSS
 
-🔐 Authentication-ready structure for secure login/logout
+3. Authentication-ready structure for secure login/logout
 
-🧩 Reusable components (Header, Footer, Cards, Buttons)
+4. Reusable components (Header, Footer, Cards, Buttons)
 
-💬 WhatsApp integration for direct communication
+5. WhatsApp integration for direct communication
 
-🌿 Focus on natural healing — content structured for awareness and engagement
+6. Focus on natural healing — content structured for awareness and engagement
 
-☁️ Deployed on Vercel for optimal speed and scalability
+7. Deployed on Vercel for optimal speed and scalability
 
 
 📬 Contact
