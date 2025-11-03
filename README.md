@@ -68,24 +68,20 @@ Visit http://localhost:3000 in your browser.
 npm run build
 npm run start
 
-
+---
 ✨ Key Features
 
 1. Fast and SEO-friendly pages using Next.js static generation
 
 2. Responsive UI designed with Tailwind CSS
 
-3. Authentication-ready structure for secure login/logout
+3. Reusable components (Header, Footer, Cards, Buttons)
 
-4. Reusable components (Header, Footer, Cards, Buttons)
+4. WhatsApp integration for direct communication
 
-5. WhatsApp integration for direct communication
+5. Deployed on Vercel for optimal speed and scalability
 
-6. Focus on natural healing — content structured for awareness and engagement
-
-7. Deployed on Vercel for optimal speed and scalability
-
-
+---
 📬 Contact
 Taniya Gupta
 📧 s153.taniya@gmail.com
