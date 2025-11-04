@@ -7,7 +7,7 @@ export default function HomePage() {
       <Section className="bg-gray-50">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
-            <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-900">Drug‑free Pain Relief Clinic</h1>
+            <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-900">Medicine‑free Pain Relief Clinic</h1>
             <p className="mt-4 text-gray-700">Holistic therapies for back, neck, knee, shoulder pain and more — targeting the root cause without medicines or side‑effects.</p>
             <ul className="mt-6 space-y-3">
               {[
